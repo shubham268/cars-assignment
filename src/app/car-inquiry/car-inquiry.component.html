@@ -1,0 +1,55 @@
+<div class="inquiry">
+  <div class="sect-header">
+    <h2 class="heading">{{title}}</h2>
+    <div style="font-size: 14px;">
+      <span class="secondary-color" *ngIf="ddlType == 'multiselect'">{{title}} | </span>
+      <select class="dropdown-flat secondary-color">
+        <option *ngFor="let name of dropdown" [value]="name">{{name}}</option>
+      </select>
+    </div>
+
+  </div>
+  <div class="sec-rows">
+    <div class="sec-row" *ngFor="let inq of inqs;">
+      <ng-template [ngIf]="template == 'stund' || template == 'Kalender'">
+        <div class="date-div secondary-color">
+          <span class="month" style="line-height:12px;">{{inq.date | date:'MMM'}}</span>
+          <span class="date" style="line-height:14px;">{{inq.date | date:'dd'}}</span>
+          <span class="day" style="line-height:12px;">{{inq.date | date:'E'}}</span>
+        </div>
+        <div class="content-div">
+          <p *ngIf="template == 'Kalender'"><span class="secondary-color bold">{{inq.field1}}</span> hat eine <span
+              class="secondary-color bold">{{inq.field2}}</span>
+            mit <span class="secondary-color bold">{{inq.field4}}</span> um {{inq.date | date:'hh:mm'}} Uhr</p>
+          <p *ngIf="template == 'stund'"><span class="secondary-color bold">{{inq.field1}}</span> mochte mit <span
+              class="secondary-color bold">{{inq.field2}}</span>
+            um {{inq.date | date:'hh:mm'}} Uh eine <span class="secondary-color bold">{{inq.field4}}</span> um</p>
+        </div>
+      </ng-template>
+      <ng-template [ngIf]="template == 'schuler' || template == 'schritt'">
+        <div class="avatar">
+          <img [src]="inq.imageUrl" alt="avatar" />
+        </div>
+        <div class="content-div" style="flex:1">
+          <p *ngIf="template == 'schuler'"><span class="secondary-color bold">{{inq.field1}} </span>
+            mochte <span class="secondary-color bold">{{inq.field2}} </span> absolveren</p>
+          <div *ngIf="template == 'schritt'" style="display: flex">
+            <span class="secondary-color bold mr-2">{{inq.field1}} </span>
+            <div class="rating-div" style="display: flex;flex:1">
+              <span class="mr-3 bold">Forschritt</span>
+              <div style="flex:1; display: flex;flex-direction: column;">
+                <div class="rating mt-2" style="flex:1;height:6px;background:rgba(0,0,0,0.3);">
+                  <div class="status" [ngStyle]="{'width':'50%'}"></div>
+                </div>
+                <div class="rating mt-2" style="flex:1;width:50%;margin-left:10%;height:6px;background:rgba(0,0,0,0.3);">
+                  <div class="status" [ngStyle]="{'width':'30%'}"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>

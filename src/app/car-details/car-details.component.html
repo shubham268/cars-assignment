@@ -1,0 +1,34 @@
+<div class="car-details container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+      <select [ngModel]="data.name" class="dropdown-flat heading">
+        <option *ngFor="let name of carNames" [value]="name">{{name}}</option>
+      </select>
+    </div>
+    <div class="col-sm-12 col-md-4 content-end">
+      <button type="button" class="button button-primary">Profilevorseschau</button>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-sm-12 col-md-8">
+      <p>{{data.description}}</p>
+    </div>
+    <div class="col-sm-12 col-md-4 content-end">
+      <label class="primary-color pr-3">ProfilBierbetten</label>
+    </div>
+  </div>
+  <div>
+    <div class="image-wrapper">
+      <img [src]="data.image_url" alt="car image" width="300">
+    </div>
+    <div class="detail-wrapper p-2 ml-3">
+      <h3 class="heading">{{ data.details.title }}</h3>
+      <h6>{{ data.details.address }}</h6>
+      <h6>{{ data.details.contact }}</h6>
+      <h6>{{ data.details.person }}</h6>
+      <h6 class="underline">{{ data.details.email1 }}</h6>
+      <h6 class="underline">{{ data.details.email2 }}</h6>
+    </div>
+    <div class="clear-float"></div>
+  </div>
+</div>

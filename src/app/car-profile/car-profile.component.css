@@ -1,0 +1,13 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile .close-ic{
+    position: absolute;
+    right:10px;
+    top:5px;
+    font-weight:bold;
+    font-size:18px;
+}

@@ -1,0 +1,21 @@
+<div class="car-profile container mt-5">
+  <div class="row">
+    <div class="col-sm-12" style="position: relative">
+      <h2 class="heading">{{data.title}}</h2>
+      <span class="right-t">Mehr Tips anzeigen</span>
+      <div class="container">
+        <div class="profiles row">
+          <div *ngFor="let profile of data.profiles" class="box profile col-md-4 col-sm-12">
+            <span class="close-ic">X</span>
+            <h4>{{ profile.title }}</h4>
+            <h6 class="pl-2">{{ profile.description}}</h6>
+            <div class="pl-2">
+              <button type="button" class="button button-primary">{{profile.action_title}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

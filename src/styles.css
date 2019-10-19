@@ -1,0 +1,93 @@
+p{
+    margin:0;
+}
+.dropdown-flat{
+    padding: 5px 10px 5px 0px;
+    outline: none;
+    border: 0px;
+}
+
+.right-t{
+    position: absolute;
+    top: 5px;
+    right:55px;
+    color: rgb(14, 197, 127);
+}
+
+.primary-color{
+    color: rgb(14, 197, 127) ;
+}
+
+.secondary-color{
+    color: rgb(58, 210, 248);
+}
+
+.heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button{
+    color: white;
+    padding: 5px 45px;
+    outline: none;
+    border: 0px;
+}
+
+.button-primary{
+    background-color: rgb(14, 197, 127);
+}
+
+.button-outline, .button:focus{
+    position: relative;
+    background-color: white;
+    color: rgb(14, 197, 127);
+    border: 1px solid rgb(14, 197, 127);
+}
+
+.content-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.clear-float{
+    clear: both;
+}
+
+.box{
+    padding:15px;
+    box-shadow: -1px -1px 3px 0px rgb(14, 197, 127);
+}
+.avatar{
+    padding-right:10px;
+}
+.avatar img{
+    width: 45px;
+    border-radius: 50%;
+}
+.sec-rows{
+    margin-top:10px;
+    box-shadow: -1px -1px 3px 0px rgb(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.sec-row{
+    display: flex;
+    padding:10px;
+    border-bottom: 1px solid rgb(14, 197, 127);
+    font-size: 14px;
+}
+
+.sect-header{
+
+    display: flex;
+    justify-content: space-between;
+}

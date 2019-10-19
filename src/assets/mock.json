@@ -1,0 +1,204 @@
+{
+    "car_names": [
+        "Maruti Dzire",
+        "Balleno"
+    ],
+    "car_details": {
+        "name": "Maruti Dzire",
+        "description": " Maruti Suzuki has updated the 1.2-litre petrol engine offeing to be BS6 compliant and has increased prices across all models. The diesel Dzire in India will be discontinued by July 2020.",
+        "image_url": "/assets/car.jpg",
+        "details": {
+            "title": "Key Specs of Maruti Dzire",
+            "address": "Delhi, India",
+            "contact": "1800 200 3000 (Toll-Free)",
+            "person": "Girnar",
+            "email1": "customer-care@cardekho.com",
+            "email2": "support@cardekho.com"
+        }
+    },
+    "car_profile": {
+        "title": "Maruti Dzire News",
+        "profiles": [
+            {
+                "title": "Best Sedan Car",
+                "description": "Maruti Swift Dzire is the best Sedan available within 10 Lacs, ample leg space, boot space with elite class aesthetics. ",
+                "action_title": "By Abhishek Upadhyay"
+            },
+            {
+                "title": "Gear shifter problems",
+                "description": "New swift Dzire has a gear shifter problem. Suddenly car gears not working properly.",
+                "action_title": "By Piyush"
+            },
+            {
+                "title": "Comfortable Drive",
+                "description": "I have a wonderful experience with my Maruti Swift Dzire. The Car gives a good average, decent look, comfortable drive, easy to handle",
+                "action_title": "By Meghesh"
+            }
+        ]
+    },
+    "comments": [
+        {
+            "date": "01/01/2010",
+            "description": " Maruti Suzuki has updated the 1.2-litre petrol engine offeing to be BS6 compliant and has increased prices across all models."
+        },
+        {
+            "date": "01/01/2010",
+            "description": " Maruti Suzuki has updated the 1.2-litre petrol engine offeing to be BS6 compliant and has increased prices across all models."
+        },
+        {
+            "date": "01/01/2010",
+            "description": " Maruti Suzuki has updated the 1.2-litre petrol engine offeing to be BS6 compliant and has increased prices across all models."
+        }
+    ],
+    "reviews": [
+        {
+            "date": "01/01/2019",
+            "description": "Amazing ride quality – the Dzire glides over potholes and broken roads without a fuss"
+        },
+        {
+            "date": "01/01/2019",
+            "description": "Amazing ride quality – the Dzire glides over potholes and broken roads without a fuss"
+        },
+        {
+            "date": "01/01/2019",
+            "description": "Amazing ride quality – the Dzire glides over potholes and broken roads without a fuss"
+        }
+    ],
+    "inquiry": {
+        "stund": {
+            "title": "Studenanfragen",
+            "dropdown": {
+                "type": "singleselect",
+                "ddl": [
+                    "Alle Anfragen"
+                ]
+            },
+            "inqs": [
+                {
+                    "field1": "Achel",
+                    "field2": "Peter",
+                    "date": "Sat Oct 19 2019 08:39:16 GMT+0530 (India Standard Time)",
+                    "field4": "UberlandFahrt"
+                },
+                {
+                    "field1": "Peter",
+                    "field2": "Silkey",
+                    "date": "Sat Oct 19 2019 08:39:16 GMT+0530 (India Standard Time)",
+                    "field4": "Basisubugstande"
+                },
+                {
+                    "field1": "Rick",
+                    "field2": "Morty",
+                    "date": "Sat Oct 19 2019 08:39:16 GMT+0530 (India Standard Time)",
+                    "field4": "UberlandFahrt"
+                }
+            ]
+        },
+        "schuler": {
+            "title": "Schuleranfragen",
+            "dropdown": {
+                "type": "multiselect",
+                "ddl": [
+                    "Alle Producte"
+                ]
+            },
+            "inqs": [
+                {
+                    "field1": "Achel",
+                    "field2": "Peter",
+                    "imageUrl":"/assets/avatar.jpg"
+                },
+                {
+                    "field1": "Peter",
+                    "field2": "Silkey",
+                    "imageUrl":"/assets/avatar.jpg"
+                },
+                {
+                    "field1": "Rick",
+                    "field2": "Morty",
+                    "imageUrl":"/assets/avatar.jpg"
+                }
+            ]
+        },
+        "schritt":{
+            "title": "Schulerfortschritt",
+            "dropdown": {
+                "type": "singleselect",
+                "ddl": [
+                    "Alle Schuller"
+                ]
+            },
+            "inqs": [
+                {
+                    "field1": "Achel",
+                    "field2": "Peter",
+                    "ratings":[70,50],
+                    "imageUrl":"/assets/avatar.jpg"
+                },
+                {
+                    "field1": "Peter",
+                    "field2": "Silkey",
+                    "ratings":[70,50],
+                    "imageUrl":"/assets/avatar.jpg"
+                },
+                {
+                    "field1": "Rick",
+                    "field2": "Morty",
+                    "ratings":[70,50],
+                    "imageUrl":"/assets/avatar.jpg"
+                }
+            ]
+        },
+        "Kalender": {
+            "title": "Kalender",
+            "dropdown": {
+                "type": "multiselect",
+                "ddl": [
+                    "Heute"
+                ]
+            },
+            "inqs": [
+                {
+                    "field1": "Achel",
+                    "field2": "Peter",
+                    "date": "Sat Oct 19 2019 08:39:16 GMT+0530 (India Standard Time)",
+                    "field4": "UberlandFahrt"
+                },
+                {
+                    "field1": "Peter",
+                    "field2": "Silkey",
+                    "date": "Sat Oct 19 2019 08:39:16 GMT+0530 (India Standard Time)",
+                    "field4": "Basisubugstande"
+                },
+                {
+                    "field1": "Rick",
+                    "field2": "Morty",
+                    "date": "Sat Oct 19 2019 08:39:16 GMT+0530 (India Standard Time)",
+                    "field4": "UberlandFahrt"
+                }
+            ]
+        }
+    },
+    "ratings": [
+        {
+            "mileage": 28.4,
+            "name": "roshan"
+        },
+        {
+            "mileage": 24.4,
+            "name": "Alle"
+        },
+        {
+            "mileage": 25,
+            "name": "Venice"
+        },
+        {
+            "mileage": 26,
+            "name": "Gunter"
+        },
+        {
+            "mileage": 25.6,
+            "name": "Malso"
+        }
+    ]
+}
